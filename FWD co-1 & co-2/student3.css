@@ -1,0 +1,11 @@
+body {
+  font-family: Arial;
+}
+
+input, select, textarea {
+  width: 300px;
+}
+
+textarea {
+  height: 60px;
+}

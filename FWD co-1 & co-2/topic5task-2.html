@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Student Registration form</title>
+</head>
+<body bgcolor="#00FFFF">
+    <h1>Student Registration Form</h1>
+    <form>
+        <label for="fname">First name: </label>
+        <input type="text" id="fname" name="fname" required><br><br>
+        <label for="mname">Middle name: </label>
+        <input type="text" id="mname" name="mname" required><br><br>
+        <label for="lname">Last name: </label>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <label for="course">Course: </label>
+        <select id="course" name="course" required>
+            <option value ="select anyone">select one</option>
+            <option value="Btech">Btech</option>
+            <option value="Diploma">Diploma</option>
+            <option value="Degree">Degree</option>
+            
+        </select><br><br>
+     
+       <label for="gender">Gender </label><br>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for="male">Male</label><br>
+        
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="Gender" value="other">
+        <label for="other">other</label><br>
+
+        <label for="hobbies" required>Student Hobbies: </label><br>
+        <input type="checkbox">Cricket<br>
+        
+        
+        <input type="checkbox" >Chess<br>
+        <!-- <label for="hobbie">Chess</label><br> -->
+        <input type="checkbox"> Football<br>
+        <!-- <label for="hobbie">Football</label><br> -->
+        <input type="checkbox"> Dance<br><br>
+        <!-- <label for="hobbie">Dance</label><br> -->
+        <label for="num">Phone: </label>
+        <input type="text" value="+91" size="2">
+        <!-- <textarea name="num" rows="0" cols="1">+91</textarea > -->
+        <input type="number" id="num" name="num" maxlength="10"><br><br>
+        <label for="details">Address: </label><br>
+        <textarea name="Adress" rows="5" cols="30" required></textarea><br><br>
+        <label for="email">Email: </label>
+        <!-- <input type="text" id="email" name="mail" required><br><br> -->
+        <input type="email" id="email" name="email" placeholder="name@example.com" required><br><br>
+        
+        <input type="submit">
+    </form>
+</body>
